@@ -1,0 +1,54 @@
+{
+  "top_features": [
+    {
+      "name": "HSA_11 - Los Angeles",
+      "importance": 0.013165023339966633,
+      "rank": 1
+    },
+    {
+      "name": "TOT_PAT_DAYS_FOR",
+      "importance": 0.010737372217572816,
+      "rank": 2
+    },
+    {
+      "name": "HFPA",
+      "importance": 0.010544923182334633,
+      "rank": 3
+    },
+    {
+      "name": "DISCHARGES_7_MONTHS_AND_LT_1_YR",
+      "importance": 0.010116467342696738,
+      "rank": 4
+    },
+    {
+      "name": "DISCHARGES_3_MONTHS_AND_LT_7_MONTHS",
+      "importance": 0.009317638695835836,
+      "rank": 5
+    },
+    {
+      "name": "COUNTY_x_Los Angeles",
+      "importance": 0.009148837305045888,
+      "rank": 6
+    },
+    {
+      "name": "EXP_ADMN",
+      "importance": 0.009094633962038811,
+      "rank": 7
+    },
+    {
+      "name": "SN_PAT_DAYS_FOR",
+      "importance": 0.008644235961686573,
+      "rank": 8
+    },
+    {
+      "name": "PPE_BED",
+      "importance": 0.00809825070532078,
+      "rank": 9
+    },
+    {
+      "name": "TOT_LIC_BEDS",
+      "importance": 0.007816664726403353,
+      "rank": 10
+    }
+  ]
+}

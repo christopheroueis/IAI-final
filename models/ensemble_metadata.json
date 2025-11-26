@@ -1,0 +1,14 @@
+{
+  "models": [
+    "Random Forest",
+    "XGBoost",
+    "Logistic Regression"
+  ],
+  "weights": {
+    "Random Forest": 0.3323170218142003,
+    "XGBoost": 0.34179510935175045,
+    "Logistic Regression": 0.32588786883404924
+  },
+  "best_model": "XGBoost",
+  "weighting_method": "performance"
+}
