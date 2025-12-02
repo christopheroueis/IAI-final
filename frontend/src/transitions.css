@@ -1,0 +1,149 @@
+/* Smooth page transitions */
+.page-transition {
+    animation: pageEnter 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes pageEnter {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Card entrance animations */
+.facility-card {
+    animation: cardEnter 0.6s cubic-bezier(0.4, 0, 0.2, 1) backwards;
+}
+
+.facility-card:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.facility-card:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+@keyframes cardEnter {
+    from {
+        opacity: 0;
+        transform: translateY(30px) scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* Smooth hover transitions */
+.facility-card,
+button,
+input,
+select {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Route change fade */
+.route-fade-enter {
+    opacity: 0;
+    transform: scale(0.98);
+}
+
+.route-fade-enter-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+}
+
+.route-fade-exit {
+    opacity: 1;
+}
+
+.route-fade-exit-active {
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+/* Loading spinner smooth rotation */
+@keyframes smoothSpin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.animate-spin {
+    animation: smoothSpin 1s linear infinite;
+}
+
+/* Form elements smooth focus */
+input:focus,
+select:focus,
+textarea:focus {
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Stagger animation helper classes */
+.stagger-item {
+    animation: staggerFadeIn 0.5s cubic-bezier(0.4, 0, 0.2, 1) backwards;
+}
+
+.stagger-item:nth-child(1) {
+    animation-delay: 0.05s;
+}
+
+.stagger-item:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.stagger-item:nth-child(3) {
+    animation-delay: 0.15s;
+}
+
+.stagger-item:nth-child(4) {
+    animation-delay: 0.2s;
+}
+
+.stagger-item:nth-child(5) {
+    animation-delay: 0.25s;
+}
+
+.stagger-item:nth-child(6) {
+    animation-delay: 0.3s;
+}
+
+.stagger-item:nth-child(7) {
+    animation-delay: 0.35s;
+}
+
+.stagger-item:nth-child(8) {
+    animation-delay: 0.4s;
+}
+
+.stagger-item:nth-child(9) {
+    animation-delay: 0.45s;
+}
+
+.stagger-item:nth-child(10) {
+    animation-delay: 0.5s;
+}
+
+@keyframes staggerFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

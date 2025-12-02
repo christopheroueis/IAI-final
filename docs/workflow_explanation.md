@@ -76,3 +76,17 @@ This document logs the steps taken to process and analyze the long-term care fac
     *   `models/shap_explainer.pkl`: SHAP interpretability.
     *   `docs/enhanced_model_performance.md`: Enhanced performance report.
     *   `docs/model_comparison.md`: Baseline vs enhanced comparison.
+
+## 8. Hospital Data Processing
+*   **Objective**: Prepare hospital data for potential future analysis or integration.
+*   **Source Files**: `hospital_v2_2022.xlsx` and `hospital_v2_2024.xlsx`.
+*   **Process**:
+    *   **Conversion**: Converted Excel files to CSV.
+    *   **Labeling**: Added `year` column (2022 and 2024).
+    *   **Merging**: Merged into `data/processed/hospital_22_24.csv` (1025 rows).
+*   **Cleaning**:
+    *   **Threshold**: Removed columns with >50% missing data.
+    *   **Result**: Created `data/processed/hospital_cleaned.csv`.
+        *   **Initial Columns**: 600
+        *   **Columns Dropped**: 217
+        *   **Remaining Columns**: 383

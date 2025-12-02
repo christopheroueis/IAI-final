@@ -1,0 +1,96 @@
+{
+  "top_features": [
+    {
+      "name": "OUTPATIENT_AVG_PER_SURGERY",
+      "original_name": "OUTPATIENT_AVG_PER_SURGERY",
+      "type": "numeric",
+      "min": 0.0,
+      "max": 156.9,
+      "mean": 83.7929178470255
+    },
+    {
+      "name": "TOT_ALOS_PY",
+      "original_name": "TOT_ALOS_PY",
+      "type": "numeric",
+      "min": 0.0,
+      "max": 3527.2,
+      "mean": 23.920943952802357
+    },
+    {
+      "name": "PEDIATRIC_ALOS_PY",
+      "original_name": "PEDIATRIC_ALOS_PY",
+      "type": "numeric",
+      "min": 0.0,
+      "max": 123.2,
+      "mean": 0.7051130776794494
+    },
+    {
+      "name": "NET_INCOME",
+      "original_name": "NET_INCOME",
+      "type": "numeric",
+      "min": -309897047.0,
+      "max": 1054972585.0,
+      "mean": 19035806.843291994
+    },
+    {
+      "name": "EMS_VISITS_CRITICAL_ADMITTED",
+      "original_name": "EMS_VISITS_CRITICAL_ADMITTED",
+      "type": "numeric",
+      "min": 0.0,
+      "max": 27112.0,
+      "mean": 4452.536923076923
+    },
+    {
+      "name": "EMS_VISITS_CRITICAL_TOT",
+      "original_name": "EMS_VISITS_CRITICAL_TOT",
+      "type": "numeric",
+      "min": 0.0,
+      "max": 48395.0,
+      "mean": 7028.859773371105
+    },
+    {
+      "name": "CONST_PROG",
+      "original_name": "CONST_PROG",
+      "type": "numeric",
+      "min": -135749.0,
+      "max": 1254137226.0,
+      "mean": 23902522.537767757
+    },
+    {
+      "name": "GR_IP_MCAR_TR",
+      "original_name": "GR_IP_MCAR_TR",
+      "type": "numeric",
+      "min": 0.0,
+      "max": 6822153803.0,
+      "mean": 231572656.30214205
+    },
+    {
+      "name": "INC_INVEST",
+      "original_name": "INC_INVEST",
+      "type": "numeric",
+      "min": -250769484.0,
+      "max": 486433368.0,
+      "mean": 3597998.7688838784
+    },
+    {
+      "name": "GR_OP_THRD_TR",
+      "original_name": "GR_OP_THRD_TR",
+      "type": "numeric",
+      "min": 0.0,
+      "max": 1007914205.0,
+      "mean": 25794472.72604284
+    }
+  ],
+  "feature_names": [
+    "OUTPATIENT_AVG_PER_SURGERY",
+    "TOT_ALOS_PY",
+    "PEDIATRIC_ALOS_PY",
+    "NET_INCOME",
+    "EMS_VISITS_CRITICAL_ADMITTED",
+    "EMS_VISITS_CRITICAL_TOT",
+    "CONST_PROG",
+    "GR_IP_MCAR_TR",
+    "INC_INVEST",
+    "GR_OP_THRD_TR"
+  ]
+}
