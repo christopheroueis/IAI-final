@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+
 function HospitalInput() {
     const navigate = useNavigate();
     const [loading, setLoading] = useState(false);
@@ -116,7 +118,7 @@ function HospitalInput() {
         const startTime = Date.now();
 
         try {
-            const response = await axios.post('http://localhost:8000/predict/hospital', {
+            const response = await axios.post(`${API_URL}/predict/hospital`, {
                 features: formData
             });
 
